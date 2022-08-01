@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables</title>
+  </head>
+  <body>
+    <table cellpadding="10" cellspacing="10"> 
+        <!--cellpadding="10" hücre genişliklerini artırır. -->
+        <!-- cellspacing="10" hücreler arasındaki mesafeyi artırır -->
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Model</th>
+                <th>Fiyat</th>
+                <th>Resim</th>
+            </tr>
+        </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Iphone 11</td>
+          <td>7000₺</td>
+          <td>1.jpeg</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Iphone 12</td> <!--<td colspan="2"> sütun birleştirme-->
+          <td>8000₺</td>
+          <td>2.jpeg</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Iphone 13</td>
+          <td rowspan="2">9000₺ 3.jpeg</td> <!--<td rowspan="2"> satır birleştirme-->
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

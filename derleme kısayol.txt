@@ -1,0 +1,3 @@
+shift+alt+F
+
+prettier ayar: ayarlar>format>editor
