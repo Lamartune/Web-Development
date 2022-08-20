@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form action="register.php">
+      <div>
+        <label for="name">Ad:</label>
+        <input type="text" id="name" />
+      </div>
+
+      <div>
+        <label for="surname">Soyad:</label>
+        <input type="text" id="surname" />
+      </div>
+
+      <div>
+        <label for="şifre">Şifre:</label>
+        <input type="password" name="" id="şifre" />
+      </div>
+
+      <div>
+        <label for="intro">Kendini Anlat</label>
+        <textarea id="intro" cols="30"></textarea>
+      </div>
+
+      <div>
+        <p>En sevdiğin programlama dili nedir?</p>
+
+        <input type="radio" id="html" name="programlama" />
+        <!--Radio buton gruplarına name eklemek tek bir seçim hakkı tanır. Birden fazla seçenek seçilmez.-->
+        <label for="html">HTML</label>
+
+        <input type="radio" id="css" name="programlama" />
+        <!--Label ve Input id lerini eşitlemek label a basıldığında o butona basılmış gibi davranmasını sağlar.-->
+        <label for="css">CSS</label>
+
+        <input type="radio" id="js" name="programlama" />
+        <label for="js">JavaScript</label>
+      </div>
+
+      <div>
+        <p>En sevdiğin programlama dili nedir?</p>
+
+        <input type="checkbox" id="html2" />
+        <label for="html2">HTML</label>
+
+        <input type="checkbox" id="css2" />
+        <label for="css2">CSS</label>
+
+        <input type="checkbox" id="js2" />
+        <label for="js2">JavaScript</label>
+      </div>
+
+      <div>
+        <label for="cities">Şehir</label>
+        <select name="" id="cities">
+          <option value="42">Konya</option>
+          <option value="34">İstanbul</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="eposta">Email:</label>
+        <input type="email" name="" id="eposta" />
+      </div>
+
+      <div>
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday" />
+      </div>
+
+      <div>
+        <label for="datemax">Enter a date before 1980-01-01:</label>
+        <input
+          type="date"
+          id="datemax"
+          name="datemax"
+          max="1979-12-31"
+        /><br /><br />
+        <label for="datemin">Enter a date after 2000-01-01:</label>
+        <input type="date" id="datemin" name="datemin" min="2000-01-02" />
+      </div>
+
+      <div>
+        <label for="myfile">Select a file:</label>
+        <input type="file" id="myfile" name="myfile" />
+      </div>
+
+      <div>
+        <label for="quantity">Quantity (between 1 and 5):</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="5" />
+      </div>
+
+      <button type="submit">Kaydet</button>
+      <button type="reset">Temizle</button>
+
+      <br /><br />
+
+      <a
+        href="https://www.w3schools.com/html/html_form_input_types.asp"
+        target="_blank"
+        ><b>Form Tipleri</b></a
+      >
+    </form>
+  </body>
+</html>
