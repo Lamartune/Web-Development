@@ -1,0 +1,22 @@
+section {
+    background-color: #16213e;
+    color: #fff;
+    text-align: center;
+  }
+  h1 {
+    color: #e94560;
+  }
+  h2 {
+    color: #fff;
+  }
+
+  /* "list-style-type: none;" Liste elemanlarının başındaki simgeyi kaldırmak için kullanılır. */
+  ul {
+    list-style-type: none;
+  }
+
+  /* "text-decoration: none;" linklerin altındaki çizgiyi kaldırır. */
+  a{
+    text-decoration: none;
+    color: #0F3460;
+  }
