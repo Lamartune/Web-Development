@@ -1,0 +1,13 @@
+                HTML                                            CSS
+
+Tag Name        <h1>Page Title</h1>                             h1 {
+                <p>Blog Post</p>                                  color: red;
+                <div>Blog Details</div>                         }
+--------------------------------------------------------------------------------------------
+Class           <h1 class="blog-post">Page Title</h1>           .blog-post{
+                <p class="blog-post">Blog Post</p>                color: red;
+                <div class="blog-post">Blog Details</div>       }
+--------------------------------------------------------------------------------------------
+Id              <h1 id="blog-title">Page Title</h1>             #blog-title{
+                <p>Blog Post</p>                                  color: red;
+                <div>Blog Details</div>                         }
