@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Browser Defaults</title>
+    <style>
+      * {
+        /* "*" yıldız tüm sayfayı kastetmektedir. yıldız body etiketine göre daha zayıftır. */
+        margin: 0;
+      }
+
+      body {
+        font-size: 20px;
+        margin-top: 10px;
+      }
+
+      section {
+        background-color: #2e4c6d;
+      }
+
+      /* h1,h2{
+            color: #fff;
+        } */
+
+      .f20 {
+        font-size: 20px;
+      }
+
+      .f18 {
+        font-size: 18px;
+      }
+
+      #page-title {
+        border: 2px solid red; /* border yazdığımız anda bir dikdörtgen belirtmiş oluruz burada bottom kısmını seçerek başlık altında 1 pixellik kırmızı çizgili boşluk bırakıyoruz. */
+      }
+
+      #page-subtitle {
+        border: 2px solid blue;
+      }
+
+      .text-white {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1 id="page-title" class="text-white f20">Welcome to MovieApp</h1>
+        <!-- "class="text-white f20" classlar içerisinde sadece aralarına boşluk bırakarak bir çok class ekleyebiliriz. -->
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero,
+          mollitia.
+        </p>
+      </section>
+      <section>
+        <h2 id="page-subtitle" class="text-white f18">How it works?</h2>
+      </section>
+    </main>
+  </body>
+</html>
