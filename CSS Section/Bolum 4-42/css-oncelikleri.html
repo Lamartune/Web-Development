@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Öncelikleri</title>
+
+    <style>
+        #page-title{color: aqua;} /* Burada gerçekleşen çakışmada CSS önceliği her zaman id'ye verir aşağıda veya yukarıda yazılması önemsizdir. Yazımız aqua rengini alır. */
+        .text-yellow{color: yellow;} /* Kısaca öncelik/baskınlık sırası: inline > # > . > tag = inline css > id selector > class selector > tag selector > browser default */
+        h1{color: red;}
+        h1{color: blue;}
+        /* Burada gerçekleşen çakışmada CSS önceliği en son yazılmış olan satıra verir. Yani yazımız mavi renk alır. */
+        h1{font-size: 16px;}
+        #page-title{border-bottom: 3px solid green;}
+    </style>
+
+</head>
+<body>
+    <main>
+        <section>
+          <h1 id="page-title" class="text-yellow">Welcome to MovieApp</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero,
+            mollitia.
+          </p>
+        </section>
+        <section>
+          <h2 id="page-subtitle" class="text-white">How it works?</h2>
+        </section>
+      </main>
+</body>
+</html>
