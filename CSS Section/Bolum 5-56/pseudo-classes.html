@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo Classes</title>
+
+    <style>
+      a {
+        border: 1px solid gray;
+        padding: 5px 8px;
+        display: inline-block;
+        text-decoration: none;
+        width: 60px;
+        text-align: center;
+      }
+
+      a:link {
+        color: red;
+      }
+      a:visited {
+        color: gray;
+      }
+      a:hover {
+        color: #fff;
+        background-color: yellow;
+      }
+      a:active {
+        color: #fff;
+        background-color: violet;
+      }
+      div{
+        width: 80px;
+      }
+      div:hover p{
+        width: 800px;
+        background-color: tomato;
+        display: block;
+      }
+      p{
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Pseudo Classes -->
+    <!-- W3 School: https://www.w3schools.com/css/css_pseudo_classes.asp -->
+    <a href="../Bolum 4-39/index.html">Home</a>
+    <a href="../Bolum 4-39/index.html">Products</a>
+    <a href="../Bolum 4-39/index.html">About</a>
+
+    <br><br>
+
+    <div>
+      Click Here!
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt
+        expedita excepturi consequatur laboriosam id eveniet a itaque adipisci
+        culpa! Totam impedit asperiores molestiae ex perferendis, quasi tempora
+        cum harum sunt.
+      </p>
+    </div>
+    <!-- Pseudo Elements -->
+  </body>
+</html>
