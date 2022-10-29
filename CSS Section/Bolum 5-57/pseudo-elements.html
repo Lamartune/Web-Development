@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo Elements</title>
+
+    <style>
+      p::first-line{
+        font-weight: bold;
+        color: brown;
+        word-spacing: 3px;
+        letter-spacing: 1px;
+      }
+      p.about::first-line{
+        color: green;
+      }
+      p::first-letter{
+        font-size: 48px;
+      }
+      p::selection{
+        background-color: lightgreen;
+      }
+      p::after{
+        content: '\261D';
+        color: red;
+        font-size: 30px;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Pseudo Classes -->
+    <!-- Pseudo Elements -->
+    <!-- W3 Schools: https://www.w3schools.com/css/css_pseudo_elements.asp -->
+    <!-- W3 Schools Emojis: https://www.w3schools.com/html/html_emojis.asp -->
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+      quam sint voluptates animi, voluptatibus quos aut, libero iste, a
+      molestias natus ipsam iusto mollitia! In aspernatur voluptatum ex eius
+      nostrum.
+    </p>
+
+    <p class="about">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti porro
+      impedit et ipsam corrupti, magnam corporis perferendis nisi minima, quam
+      amet laudantium accusantium recusandae totam excepturi assumenda, nemo
+      consequatur laborum.
+    </p>
+  </body>
+</html>
